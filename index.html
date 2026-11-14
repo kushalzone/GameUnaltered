@@ -1,0 +1,29 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>PERCH: A Tale Above the Clouds</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<canvas id="game" width="640" height="480" aria-label="PERCH game canvas"></canvas>
+<nav id="mobile-controls" aria-label="Touch game controls">
+<div class="dpad">
+<button type="button" data-key="arrowup" aria-label="Move up">UP</button>
+<button type="button" data-key="arrowleft" aria-label="Move left">LEFT</button>
+<button type="button" data-key="arrowdown" aria-label="Move down">DOWN</button>
+<button type="button" data-key="arrowright" aria-label="Move right">RIGHT</button>
+</div>
+<div class="action-pad">
+<button type="button" data-key="x" aria-label="Back">BACK</button>
+<button type="button" data-key="z" aria-label="Confirm or interact">ACT</button>
+<button type="button" data-key="c" aria-label="Party status">PARTY</button>
+</div>
+</nav>
+<script src="js/data.js"></script>
+<script src="js/input.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>
+
